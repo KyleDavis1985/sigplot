@@ -1,1 +1,6 @@
 @import '@astrouxds/astro-web-components/dist/astro-web-components/astro-web-components.css';
+
+#plot {
+  width: 800px;
+  height: 600px;
+}
