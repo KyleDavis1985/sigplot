@@ -22,6 +22,8 @@
     "jquery": "^3.6.4",
     "rxjs": "~7.8.0",
     "sigplot": "^2.0.0-rc21",
+    "sigplot-ng": "^0.3.4",
+    "sigplot-ts": "^0.3.5",
     "tslib": "^2.3.0",
     "zone.js": "~0.12.0"
   },
