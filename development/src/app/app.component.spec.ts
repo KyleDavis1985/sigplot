@@ -1,14 +1,12 @@
 import { TestBed } from '@angular/core/testing';
 import { RouterTestingModule } from '@angular/router/testing';
 import { AppComponent } from './app.component';
-import { RasterPlot, RasterPlotData, FormatSize, FormatType } from 'sigplot-ts';
-import { SigPlotComponentsModule } from 'sigplot-ng';
 
 describe('AppComponent', () => {
   beforeEach(async () => {
     await TestBed.configureTestingModule({
       imports: [
-        RouterTestingModule, RasterPlot, FormatSize, FormatType, SigPlotComponentsModule
+        RouterTestingModule
       ],
       declarations: [
         AppComponent
