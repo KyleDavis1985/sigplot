@@ -4,14 +4,13 @@ import { AstroComponentsModule } from '@astrouxds/angular';
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 
-
 @NgModule({
   declarations: [
     AppComponent
   ],
   imports: [
     BrowserModule,
-    AppRoutingModule, AstroComponentsModule
+    AppRoutingModule, AstroComponentsModule,
   ],
   providers: [],
   bootstrap: [AppComponent]
